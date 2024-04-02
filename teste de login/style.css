@@ -3,13 +3,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    margin: 0;
-    font-family: "Noto Sans", sans-serif
-}
-
 body * {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    background-color: #201b2c;
 }
 
 .main-login {
@@ -110,6 +111,11 @@ body * {
 }
 
 @media only screen and (max-width:600px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
     .main-login {
         flex-direction: column;
     }
