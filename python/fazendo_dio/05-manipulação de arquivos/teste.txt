@@ -1,0 +1,5 @@
+Escrevendo dados em um novo aquivo.
+escrevendo 
+um 
+novo 
+texto.
